@@ -4,11 +4,9 @@ class ChatroomControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
     get root_url
     assert_response :success
+    assert_select "title", "Home | Message Me"
   end
 
-  test "should get login" do
-    get sessions_login_url
-    assert_response :success
-  end
+
 
 end

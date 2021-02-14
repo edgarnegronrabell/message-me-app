@@ -16,3 +16,5 @@
 // const imagePath = (name) => images(name, true)
 
 console.log('Hello World from Webpacker')
+// Loads all Semantic javascripts
+//= require semantic-ui
